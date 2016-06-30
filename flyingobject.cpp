@@ -1,0 +1,17 @@
+#include "flyingobject.h"
+#include "./library/util.h"
+
+
+void FlyingObject::Update(){
+
+
+	pos += speed;//â¡ë¨
+	speed *= deceleration;//å∏ë¨
+
+	//ê˘âÒ
+	yaw += yawSpeed;
+	yawSpeed *= deceleration;
+}
+
+
+

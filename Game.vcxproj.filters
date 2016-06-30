@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{70a93638-d59e-4e59-9554-98d959b51925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{d1cf34ea-c58a-4922-aff4-8a3c24370d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texture">
+      <UniqueIdentifier>{aa2dbb82-16a4-47ac-9212-8c7047bf76a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="field">
+      <UniqueIdentifier>{0e7044e8-25a5-404a-b1da-a50e5ec7f1ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controllers">
+      <UniqueIdentifier>{5ae62bb1-6ccf-4156-8d04-992bd8cbb654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{fcabda6a-bd74-4f92-98f3-6f439a50872d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="flyingobject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ship.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="texture\texture.cpp">
+      <Filter>texture</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\sounds_manager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\texture_manager.cpp">
+      <Filter>manager</Filter>
+    </ClCompile>
+    <ClCompile Include="field\panel.cpp">
+      <Filter>field</Filter>
+    </ClCompile>
+    <ClCompile Include="field\skybox.cpp">
+      <Filter>field</Filter>
+    </ClCompile>
+    <ClCompile Include="controllers\pad_controller.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="library\stroke_draw.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_game.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_gamerule.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_resurt.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\scene_title.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="library\util.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="flyingobject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ship.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="texture\texture.h">
+      <Filter>texture</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\sounds_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\texture_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="field\panel.h">
+      <Filter>field</Filter>
+    </ClInclude>
+    <ClInclude Include="field\skybox.h">
+      <Filter>field</Filter>
+    </ClInclude>
+    <ClInclude Include="controllers\pad_controller.h">
+      <Filter>controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="library\stroke_draw.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene_game.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene_gamerule.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene_resurt.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\scene_title.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="library\util.h">
+      <Filter>library</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

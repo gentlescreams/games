@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Orca XML File Format -->
+<OrcaTrees OriginalFilePath="C:\Users\vantan\Documents\CriAtomCraft\ika\ika\Public\ika_sounds\game_sound_acb_info.xml" ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
+  <OrcaTree OrcaName="acb_Info">
+    <Orca OrcaName="acb_Info_Root" OrcaType="CriMw.CriGears.Core.OrcaObject">
+      <Orca OrcaName="game_sound" OoUniqId="5c876a2d-d458-4a89-8270-bcd11f9d7678" AcfMd5hash="T7rFBDDiHfb/ZJ5BlP39YA==" LastOutputCueSheetSize="496992" CueSheetPaddingSize="2048" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+        <Orca OrcaName="bgm_title" CueID="0" SynthType="SynthPolyphonic" PlaybackMode="PlayList" PlaybackLimitEnableFlag="True" CuePriorityType="FirstPriority" Volume="0.42" Comment="タイトルシーン" DisplayUnit="Frame5994" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+          <Orca OrcaName="Track_bgm_title" SynthType="Track" SwitchRange="0.5" DisplayUnit="Frame5994" ObjectColor="200, 30, 100, 180" Volume="0.32" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+            <Orca OrcaName="bgm_title.wav" LinkWaveform="/CriAtomCraftV2Root/ワークユニット/WorkUnit_0_MaterialInfo/マテリアルルートフォルダ/bgm_title.wav" SynthType="Waveform" LinkWaveformPathName="bgm_title.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform">
+              <Orca OrcaName="bgm_title.wav" SourceFileSize="18153448" Channels="2" SamplingRate="44100" SampleFrames="4538351" EncodeFileSize="3023402" LastLoadSrcFileTimeStamp="2016/06/02 15:11:35" LastLoadSrcFileMD5="391784dab862171f3ee055841479a26b" WaveImageCacheWriteTime="2016/06/02 15:11:35" ResamplingRate="44100" ReloopEnd="4538351" StreamType="Stream" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+            </Orca>
+          </Orca>
+          <Orca OrcaName="BuildCueInfo" BuildCueStreamType="Stream" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBuildCueInfo" />
+        </Orca>
+        <Orca OrcaName="bgm_resurt" CueID="2" SynthType="SynthPolyphonic" PlaybackMode="PlayList" PlaybackLimitEnableFlag="True" CuePriorityType="FirstPriority" Comment="リザルトシーン" DisplayUnit="Frame5994" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+          <Orca OrcaName="Track_bgm_resurt" SynthType="Track" SwitchRange="0.5" DisplayUnit="Frame5994" ObjectColor="200, 30, 100, 180" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+            <Orca OrcaName="bgm_resurt.wav" LinkWaveform="/CriAtomCraftV2Root/ワークユニット/WorkUnit_0_MaterialInfo/マテリアルルートフォルダ/bgm_resurt.wav" SynthType="Waveform" LinkWaveformPathName="bgm_resurt.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform">
+              <Orca OrcaName="bgm_resurt.wav" SourceFileSize="2946805" Channels="2" SamplingRate="44100" SampleFrames="736690" EncodeFileSize="491136" LastLoadSrcFileTimeStamp="2016/06/07 15:59:19" LastLoadSrcFileMD5="cf912aead330e21f64d8319216b96de3" WaveImageCacheWriteTime="2016/06/07 15:59:19" ResamplingRate="44100" ReloopEnd="736690" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+            </Orca>
+          </Orca>
+          <Orca OrcaName="BuildCueInfo" BuildCueStreamType="Memory" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBuildCueInfo" />
+        </Orca>
+        <Orca OrcaName="bgm_game" CueID="1" SynthType="SynthPolyphonic" PlaybackMode="PlayList" DisplayUnit="Frame5994" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+          <Orca OrcaName="Track_bgm_game" SynthType="Track" SwitchRange="0.5" DisplayUnit="Frame5994" ObjectColor="200, 30, 100, 180" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
+            <Orca OrcaName="bgm_game.wav" LinkWaveform="/CriAtomCraftV2Root/ワークユニット/WorkUnit_0_MaterialInfo/マテリアルルートフォルダ/bgm_game.wav" SynthType="Waveform" LinkWaveformPathName="bgm_game.wav" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform">
+              <Orca OrcaName="bgm_game.wav" SourceFileSize="11793648" Channels="2" SamplingRate="44100" SampleFrames="2948401" EncodeFileSize="1425476" LastLoadSrcFileTimeStamp="2016/06/02 15:09:49" LastLoadSrcFileMD5="4219f474887592011ba83025179b1d80" WaveImageCacheWriteTime="2016/06/02 15:09:49" ResamplingRate="44100" ReloopEnd="2948401" StreamType="Stream" EncodeType="HCA_MX" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+            </Orca>
+          </Orca>
+          <Orca OrcaName="BuildCueInfo" BuildCueStreamType="Stream" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBuildCueInfo" />
+        </Orca>
+      </Orca>
+    </Orca>
+  </OrcaTree>
+</OrcaTrees>
+<!-- Copyright (c) CRI Middleware Co.,LTD. -->
+<!-- end of document -->
