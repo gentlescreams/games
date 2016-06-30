@@ -151,7 +151,7 @@ int main(int argc, char *argv[]) {
 	/*キーボード入力取得関数の登録-----------------------------*/
 	glutKeyboardFunc(keyboard);//void (GLUTCALLBACK *func)(unsigned char key, int x, int y)
 	glutKeyboardUpFunc(keyboardUp);// void (GLUTCALLBACK *func)(unsigned char key, int x, int y)
-								   /*---------------------------------------------------------*/
+	/*---------------------------------------------------------*/
 
 	Panel::setPanel();//panelの初期化
 
