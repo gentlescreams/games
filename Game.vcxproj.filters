@@ -90,6 +90,9 @@
     <ClCompile Include="library\util.cpp">
       <Filter>library</Filter>
     </ClCompile>
+    <ClCompile Include="library\item.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bullet.h">
@@ -144,6 +147,9 @@
       <Filter>scene</Filter>
     </ClInclude>
     <ClInclude Include="library\util.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\item.h">
       <Filter>library</Filter>
     </ClInclude>
   </ItemGroup>

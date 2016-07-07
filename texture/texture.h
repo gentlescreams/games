@@ -16,17 +16,19 @@ class Texture
 {
 public:
 	Texture();
-	Texture(const char *file_name);
+	RGB* LeadTexture(const char *file_name );
 	void BindTexture();
 	~Texture();
-
+	void SynthesisTexture(RGB *mask);
 	 GLuint tex_id;//テクスチャー指定id
-
+	 void Run(const char* file_name, const char* mask_name);
+private:
 	BITMAPFILEHEADER bf;
 	BITMAPINFOHEADER bi;
 	RGB *pixels;
-	A *alpha;
-
+	RGBA *rgba;
+	void TexParam();
+	void TexAlphaParam();
 };
 
 

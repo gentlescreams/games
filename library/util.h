@@ -33,12 +33,12 @@ enum{
 
 //RGB
 struct RGB {
-	unsigned char b, g, r;
+	unsigned char r, g, b;
 };
 
 //ƒ¿’l
-struct  A {
-	unsigned char a;
+struct  RGBA {
+	unsigned char r, g, b, a;
 };
 
 float distance(glm::vec3 &_vec0, glm::vec3 &_vec1);

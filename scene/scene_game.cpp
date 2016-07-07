@@ -14,6 +14,8 @@
 #include "../field/skybox.h"
 #include "../controllers/pad_controller.h"
 #include "../library/stroke_draw.h"
+#include "../library/item.h"
+
 #include <Xinput.h>
 
 
@@ -32,7 +34,7 @@ int timeCount;
 int leftTime = 0;
 extern bool is_game_set;
 SkyBox sk;
-
+Item item;
 //ゲームシーン呼び出し関数
 void scene_game(int &sceneType, unsigned char *keyboadKeys, unsigned char *lastKeyboardKeys, unsigned int downKeys) {
 	//タイムがマイナスにならないように
@@ -44,6 +46,7 @@ void scene_game(int &sceneType, unsigned char *keyboadKeys, unsigned char *lastK
 	//ゲーム終了以外は
 	if (is_game_set != true)
 	{
+		item.Move();
 		for (Ship& sp : ships) {
 
 			//プレイヤー以外のコントロール
@@ -183,6 +186,7 @@ void scene_game_draw() {
 		b.Draw();
 	}
 
+
 	glMatrixMode(GL_PROJECTION);//GLenum mode
 	glLoadIdentity();//射影行列の初期化
 	glMatrixMode(GL_MODELVIEW);//GLenum mode	カメラの設定
@@ -303,6 +307,7 @@ void scene_game_draw() {
 			sp.Draw();
 		}
 
+		item.Draw();
 		//弾
 		for (Bullet& b : bulletList)
 			b.Draw();

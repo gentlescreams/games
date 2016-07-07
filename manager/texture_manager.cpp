@@ -1,9 +1,8 @@
 #include <array>
 #include <string>
-
 #include "texture_Manager.h"
 
-const int texnum = 7;
+const int texnum = 8;
 //テクスチャ画像のパス
 std::array < std::string, texnum> texPass = {
 	"materials/gesotaso.bmp",
@@ -12,9 +11,20 @@ std::array < std::string, texnum> texPass = {
 	"materials/game_title.bmp",
 	"materials/game_resurt.bmp",
 	"materials/game_rule.bmp",
-	"materials/field.bmp"
+	"materials/field.bmp",
+	"materials/item.bmp"
 };
 
+std::array < std::string, texnum> maskPass = {
+	"nomask",
+	"nomask",
+	"nomask",
+	"nomask",
+	"nomask",
+	"nomask",
+	"nomask",
+	"materials/item_m.bmp"
+};
 //テクスチャ登録の名前
 std::array < std::string, texnum> texName = {
 	"player",
@@ -23,7 +33,8 @@ std::array < std::string, texnum> texName = {
 	"title",
 	"resurt",
 	"rule",
-	"field"
+	"field",
+	"bomb"
 };
 
 //インスタンスの初期化
@@ -46,8 +57,8 @@ void TextureManager::ResourceCreate() {
 	/*テクスチャ読み込み*/
 	for (int i = 0; i < texnum; i++)
 	{
-		Texture* temp = new Texture(texPass[i].c_str());
-
+		Texture* temp = new Texture();
+		temp->Run(texPass[i].c_str(), maskPass[i].c_str());
 		tex_date.insert(std::make_pair(texName[i], temp));
 	}
 

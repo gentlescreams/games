@@ -72,6 +72,10 @@
     <IncludePath>C:\cri\pc\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\cri\pc\libs\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\cri\pc\include;$(IncludePath)</IncludePath>
+    <LibraryWPath>C:\cri\pc\libs\x86;$(LibraryWPath)</LibraryWPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -91,6 +95,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>cri_ware_pcx86_le_import.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -125,6 +132,7 @@
     <ClCompile Include="field\panel.cpp" />
     <ClCompile Include="field\skybox.cpp" />
     <ClCompile Include="flyingobject.cpp" />
+    <ClCompile Include="library\item.cpp" />
     <ClCompile Include="library\stroke_draw.cpp" />
     <ClCompile Include="library\util.cpp" />
     <ClCompile Include="main.cpp" />
@@ -146,6 +154,7 @@
     <ClInclude Include="field\panel.h" />
     <ClInclude Include="field\skybox.h" />
     <ClInclude Include="flyingobject.h" />
+    <ClInclude Include="library\item.h" />
     <ClInclude Include="library\stroke_draw.h" />
     <ClInclude Include="library\util.h" />
     <ClInclude Include="manager\sounds_manager.h" />

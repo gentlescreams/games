@@ -10,6 +10,7 @@
 #include "../glut.h"
 #include "../manager\texture_manager.h"
 
+
 char parcalc(int panel_counter) {
 	float p = (float)panel_counter / (float)(FIELD_SIZE*FIELD_SIZE) * 100.0f;
 	int pp = p;
